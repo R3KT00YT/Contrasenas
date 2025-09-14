@@ -18,8 +18,8 @@ Genera claves aleatorias, las cifra localmente y permite consultarlas cuando sea
 Clona este repositorio y entra en la carpeta:
 
 ```bash
-git clone https://github.com/tuusuario/password-manager.git
-cd password-manager
+git clone https://github.com/R3KT00YT/Contrasenas.git
+cd clave_pas.py
 ```
 
 Instala dependencias:
@@ -34,7 +34,7 @@ pip install -r requirements.txt
 Ejecuta el script:
 
 ```bash
-python password_manager.py
+python clave_pas.py
 ```
 
 ### Menú principal
@@ -55,4 +55,5 @@ python password_manager.py
 
 ## ⚠️ Nota de Seguridad
 Este proyecto es educativo. No está pensado para reemplazar gestores profesionales como Bitwarden o KeePass.  
+
 La base de datos se guarda en local, y la seguridad depende de proteger tu `secret.key`.
